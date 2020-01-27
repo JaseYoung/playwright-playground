@@ -1,0 +1,5 @@
+--timeout 5000
+--file ./support/config.js
+--file ./support/assertions.js
+--file ./support/mocha.js
+/**/*.spec.js

@@ -1,22 +1,26 @@
 {
   "name": "playwright-playground",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "playwright framework using cucumber feature files",
   "scripts": {
-    "test": "node index.js"
+    "cucumber-playwright": "cucumber-js --parallel 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaseYoung/playwright-playground.git"
   },
-  "author": "",
+  "author": "Jason Young",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JaseYoung/playwright-playground/issues"
   },
   "homepage": "https://github.com/JaseYoung/playwright-playground#readme",
+  "resolutions": {
+    "eslint": "6.5.1"
+  },
   "devDependencies": {
-    "playwright": "^0.9.21"
+    "playwright": "^0.9.21",
+    "cucumber": "^6.0.5",
+    "chai": "^4.2.0"
   }
 }
